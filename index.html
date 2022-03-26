@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+    <div class="divp">
+        <h1>PokeDex</h1>
+        <div>
+            <input type="text" placeholder="Enter a Pokemon" id="pokeName" name="pokeName">
+            <br>
+            <img src="./images/pokeBall.png" alt="Pokemon" id="pokeImg"  height="300px">
+            <br>
+            <button onclick="fetchPokemon()">Push here</button>
+        </div>
+        <br>
+        <div id="pokeBox" class="floatdivs">
+            <p>Waiting... </p>
+        </div>
+        <br>
+        <div id="moveIt" class="floatdivs">
+            <p>Waiting... </p>
+        </div>
+        <footer>
+            <script src="./scripts/main.js"></script>
+        </footer>
+    </div> 
+</body>
+</html>
