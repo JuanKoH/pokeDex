@@ -7,7 +7,7 @@ const fetchPokemon = () => {
     fetch(url).then((res) => {
             if (res.status != "200") {
                 console.log(res);
-                pokeImage("../images/rocketT.png");
+                pokeImage("./images/rocketT.png");
                 let elemen = document.getElementById("pokeBox");
                 elemen.innerHTML = `<p class = "red">Probably that was not a pokemon name. Or  not has been added to our data base yet.</p>`
                 let element = document.getElementById("moveIt");
